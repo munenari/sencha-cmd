@@ -1,5 +1,7 @@
 # sencha-cmd
 
+glhf
+
 ## how to use
 
 - build image
