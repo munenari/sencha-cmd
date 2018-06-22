@@ -1,6 +1,6 @@
 FROM openjdk:7-jre
 
-ARG SENCHA_VERSION=6.5.3.6
+ARG SENCHA_VERSION=6.6.0.13
 WORKDIR /tmp
 
 RUN wget http://cdn.sencha.com/cmd/${SENCHA_VERSION}/no-jre/SenchaCmd-${SENCHA_VERSION}-linux-amd64.sh.zip && \
