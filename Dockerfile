@@ -10,4 +10,5 @@ RUN wget http://cdn.sencha.com/cmd/${SENCHA_VERSION}/no-jre/SenchaCmd-${SENCHA_V
     rm SenchaCmd-${SENCHA_VERSION}-linux-amd64.sh.zip SenchaCmd-${SENCHA_VERSION}-linux-amd64.sh
 
 WORKDIR /code
-CMD [ "sencha", "app", "watch" ]
+CMD [ "sencha", "app", "watch", "--web-server=false" ]
+
