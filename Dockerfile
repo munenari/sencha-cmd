@@ -1,6 +1,6 @@
 FROM openjdk:10-jre
 
-ARG SENCHA_VERSION=6.7.0.37
+ARG SENCHA_VERSION=6.7.0.63
 WORKDIR /tmp
 
 RUN wget http://cdn.sencha.com/cmd/${SENCHA_VERSION}/no-jre/SenchaCmd-${SENCHA_VERSION}-linux-amd64.sh.zip && \
@@ -11,4 +11,3 @@ RUN wget http://cdn.sencha.com/cmd/${SENCHA_VERSION}/no-jre/SenchaCmd-${SENCHA_V
 
 WORKDIR /code
 CMD [ "sencha", "app", "watch", "--web-server=false" ]
-
