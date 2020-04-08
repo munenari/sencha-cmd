@@ -1,0 +1,7 @@
+version: "2"
+
+services:
+  cmd:
+    build:
+      context: .
+    command: [ "sencha", "app", "watch", "--web-server=false" ]
