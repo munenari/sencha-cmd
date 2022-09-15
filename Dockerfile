@@ -1,6 +1,6 @@
 FROM openjdk:11-jre-buster
 
-ARG SENCHA_VERSION=7.5.1
+ARG SENCHA_VERSION=7.6.0.87
 WORKDIR /tmp
 
 RUN wget http://cdn.sencha.com/cmd/${SENCHA_VERSION}/no-jre/SenchaCmd-${SENCHA_VERSION}-linux-amd64.sh.zip && \
