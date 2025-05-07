@@ -26,5 +26,5 @@ $ docker run -it --rm -v /path/to/your/sencha-app:/code -v /path/to/sencha-sdk:/
 ## use with docker-compose
 
 ```bash
-$ docker-compose run -v /path/to/sencha-workdir:/code cmd sencha ap watch
+$ docker compose run -v /path/to/sencha-workdir:/code cmd sencha ap watch
 ```
